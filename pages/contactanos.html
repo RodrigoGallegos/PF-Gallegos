@@ -9,139 +9,207 @@
 
     <title>Contactanos!</title>
 
-    <link rel="stylesheet" href="estilos/estilos.css">
-
-    <link rel="icon" href="images/logo2.png">
-
+    <link rel="icon" href="/images/logo2.png">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Michroma&family=Montserrat+Alternates:wght@200&family=Nunito:wght@200&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
     <script src="https://kit.fontawesome.com/1b6f253bb4.js" crossorigin="anonymous"></script>
 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="/estilos/estilos.css">
+
     
-
 </head>
+<!-- Nav -->
 <body>
-    <header class="menu">
-        <nav class="nav">
-            <div class="logo">
-                <a href="index.html"><img src="images/logo2.png"logo" class="logo"></a>
-            </div>
-            <div class="nav-links">
-                <ul>
 
-                    <li >
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="domos.html"> Domos</a>
-                    </li>
-                    <li>
-                        <a href="eventos.html">Eventos</a>
-                    </li>
-                    <li>
-                        <a href="galeria.html">Galeria</a>
-                    </li>
-                    <li>
-                        <a href="contactanos.html">Contactanos</a>
-                    </li>
+    <header class="menu">
+
+        <nav class="navbar navbar-expand-lg p-3 mb0 bg-black text-white">
+
+            <div class="container-fluid">
+
+              <a class="navbar-brand" href="index.html">
+
+                <img class="logo" src="/images/logo2.png" alt="logo" width="150px">
+                
+              </a>
+
+              <button class="navbar-toggler bg-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto ">
+
+                    <li class="nav-item fs-1">
+
+                        <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page" href="index.html">Inicio</a>
+
+                      </li>
+
+                      <li class="nav-item fs-1">
+
+                        <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page" href="domos.html">Domos</a>
+
+                      </li>
+
+                  <li class="nav-item fs-1">
+
+                    <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page"  href="eventos.html">Eventos</a>
+
+                  </li>
+
+                  <li class="nav-item fs-1">
+
+                    <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page"  href="galeria.html">Galeria</a>
+
+                  </li>
+
+                  <li class="nav-item fs-1">
+
+                    <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page"  href="contactanos.html">Contactanos</a>
+
+                  </li>
 
                 </ul>
+
+              </div>
+
             </div>
-        </nav>
 
+          </nav>
     </header>
-
-        <section>
-
-            <article class="content">
-                <h1 class="brand">Mandanos Tus <span>Consulta</span></h1>
-                
-                
-
-
-                <div class="contact-box">
-
-                    <div class="contact-form">
-                        <h2 >Contactanos</h2> <br>
-                            <p>
-                                <label for="nombrecompleto">Nombre Completo</label>
-                                <input type="text" name="Nombre Completo" id="nombrecompleto">
-                            </p>
-                            <p>
-                                <label for="correoelectronico">Correo Electronico</label>
-                                <input type="email" name="email" id="correoelectronico">
-                            </p>
-                            <p>
-                                <label for="telfono">Numero De Telefono</label>
-                                <input type="tel" name="telefono" id="telefono">    
-                            </p>
-                            <p>
-                                <label for="asunto">Asunto</label>
-                                <input type="text" name="asunto" id="asunto">
-                            </p>
-                            <p class="block">
-                                <label for="mensaje">Mensaje</label>
-                                <textarea name="mensaje" id="mensaje" rows="10"></textarea>
-                            </p>
-                            <p class="block">
-                                <button type="submit">
-                                    Enviar
-                                </button>
-                            </p>
+    <section class="d-flex justify-content-center bg-dark">
+        <div class="card col-sm-6 ibody">
+            <div class="mb-3">
+                 <h2>¡ Contactenos !</h2>
+            </div>
+            <div class="mb-2">
+                <form method="post" name="fcontacto" id="fcontacto">
+                    <div class="mb-2">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej. Rodrigo">
                     </div>
 
-
-                    <div class="contact-info">
-                        <h4>Mas Informacion</h4>
-                        <ul>
-                            <li> <i class="fa-solid fa-location-dot"></i> Direccion: Carlos Salvador 2222</li>
-                            <li> <i class="fa-solid fa-phone"></i> Telefono: +54 11 3565 7242</li>
-                            <li> <i class="fa-solid fa-envelope"></i> Email: rodrigo@gmail.com</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint praesentium architecto quibusdam quisquam consectetur debitis repellat vel soluta aspernatur illo aperiam nemo consequuntur rerum vitae temporibus, repellendus ducimus eum!</p>
-                        <p>
-                            QuintaLuzDeSol.com
-                        </p>
+                    <div class="mb-2">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" name="apellido" id="apellido" placeholder="ej. Gallegos">
                     </div>
 
-                </div>
-                
+                    <div class="mb-2">
+                        <label for="correo">Direccion De Correo Electronico</label>
+                        <input type="text" class="form-control" name="correo" id="correo" placeholder="ej. rodrigo.gallegos@gmail.com">
+                    </div>
 
-            </article>
-        </section>
+                    <div class="mb-2">
+                        <label for="mensaje">Dejanos Tu Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Explicanos que estas buscando y nosotros te daremos el mejor servicio. !" class="form-control" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="mb-2">
+                        <button class="btn btn-primary">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        
+
+    </section>
+    
 
         <footer class="footer">
-            <div class="grupo1">
-                <div class="box">
-                    <figure>
-                        <a href="#"><img src="images/logo2.png" alt="logo"></a>
-                    </figure>
-                </div>
-                <div class="box">
-                    <h2>SOBRE NOSOTROS</h2>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, esse.</P>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit.</p>
-                </div>
-                <div class="box">
-                    <h2>SIGUENOS</h2>
-                    <div class="red-social">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-youtube"></a>
+
+            <div class="container-fluid">
+    
+                <div class="row p-5 pb-2 bg-black text-white">
+    
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+    
+                        <p class="h3">Luz De Sol</p>
+                        <p class="text-secondary">Pilas , Buenos Aires</p>
+    
+                    </div>
+    
+                        
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+    
+                        <p class="h5">Redes Sociales</p>
+                        <div class="mb-3">
+    
+                             <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+    
+                    </div>
+    
+                       
+                        <div class="mb-3">
+    
+                            <a class="text-secondary text-decoration-none" href="#">Twitter</a>
+    
+                        </div>
+    
+                        
+                        <div class="mb-3">
+    
+                            <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+                            
+                        </div>
+    
+                        
+    
+    
+                    </div>
+    
+                        
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+    
+                        <p class="h5">Links</p>
+                        <div class="mb-3">
+    
+                            <a class="text-secondary text-decoration-none" href="#">Terminos Y Condiciones</a>
+                            
+                        </div>
+    
+                        <div class="mb-3">
+    
+                            <a class="text-secondary text-decoration-none" href="#">Politica De Privacidad</a>
+                            
+                        </div>
+    
+    
+                    </div>
+    
+                        
+                    <div class="col-xs-12 col-md-6 col-lg-3">
+    
+                        <p class="h5">Contacto</p>
+                        <div class="mb-3">
+    
+                            <a class="text-secondary text-decoration-none" href="#">Tel +54 11-3565-7242</a>
+                            
+                        </div>
+                        <div class="mb-3">
+    
+                            <a class="text-secondary text-decoration-none" href="#">luzdelsol@gmail.com</a>
+                            
+                        </div>
+    
+                    </div>
+    
+                    <div class="col-xs-12">
+                            <p class="text-white text-center">Copyright - Todos los derechos reservados &copy </p>
                     </div>
                 </div>
-
             </div>
-
-            <div class="grupo-2">
-                <small>&copy; 2023 <b>Quinta Luz Del Sol</b> - Todos Los Derechos Reservados</small>
-            </div>
-
+    
         </footer>
-    
-    
-</body>
-</html>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+    </html>
