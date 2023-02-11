@@ -7,112 +7,256 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Nuestros Eventos</title>
+    <title>Eventos</title>
 
-    <link rel="stylesheet" href="estilos/estilos.css">
-
-    <link rel="icon" href="images/logo2.png">
-
+    <link rel="icon" href="../images/logo2.png">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Michroma&family=Montserrat+Alternates:wght@200&family=Nunito:wght@200&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/1b6f253bb4.js" crossorigin="anonymous"></script>
 
-</head>
-<body>
-    <header class="menu">
-        <nav class="nav">
-            <div class="logo">
-                <a href="index.html"><img src="images/logo2.png"logo" class="logo"></a>
-            </div>
-            <div class="nav-links">
-                <ul>
 
-                    <li >
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="domos.html"> Domos</a>
-                    </li>
-                    <li>
-                        <a href="eventos.html">Eventos</a>
-                    </li>
-                    <li>
-                        <a href="galeria.html">Galeria</a>
-                    </li>
-                    <li>
-                        <a href="contactanos.html">Contactanos</a>
-                    </li>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="../estilos/estilos.css">
+
+
+</head>
+
+<!-- Nav -->
+<body>
+
+    <header class="menu">
+
+        <nav class="navbar navbar-expand-lg p-3 mb0 bg-black text-white">
+
+            <div class="container-fluid">
+
+              <a class="navbar-brand" href="index.html">
+
+                <img class="logo" src="../images/logo2.png" alt="logo" width="150px">
+                
+              </a>
+
+              <button class="navbar-toggler bg-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto ">
+
+                    <li class="nav-item fs-1">
+
+                        <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page" href="../index.html">Inicio</a>
+
+                      </li>
+
+                      <li class="nav-item fs-1">
+
+                        <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page" href="../paginas/domos.html">Domos</a>
+
+                      </li>
+
+                  <li class="nav-item fs-1">
+
+                    <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page"  href="../paginas/eventos.html">Eventos</a>
+
+                  </li>
+
+                  <li class="nav-item fs-1">
+
+                    <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page"  href="../paginas/galeria.html">Galeria</a>
+
+                  </li>
+
+                  <li class="nav-item fs-1">
+
+                    <a class="nav-link active p-3 mb-2 bg-black text-white" aria-current="page"  href="../paginas/contactanos.html">Contactanos</a>
+
+                  </li>
 
                 </ul>
+
+              </div>
+
             </div>
-        </nav>
+
+          </nav>
     </header>
 
-    <section>
-        <article>
-            <h1 class="titulo">Nuestros Eventos</h1>
-            <span class="linea"></span>
+    <!-- SECTION -->
+<section>
+     <div id="carouselExampleCaptions" class="carousel slide">
 
-            <div class="galeria">
-                <div class="foto">
-                    <img src="images/casamiento.jpg" alt="casamiento">
-                </div>
-                <div class="pie">
-                    <h2>Casamiento</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestias minus iusto inventore quisquam quasi, sequi, odit, esse voluptatem eius commodi! Commodi, porro doloribus atque facilis voluptates excepturi enim rerum!</p>
-                </div>
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          
+        </div>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active d-item">
+
+            <img src="../images/casamiento.jpg" class="img-fluid w-100" alt="...">
+            
+
+            <div class="carousel-caption d-none d-md-block">
+
+              <h3>Casamientos</h3>
+
+              <p>Vive La fiesta que vos y tu pareja merecen rodeados de su seres amados</p>
+
             </div>
-            <div class="galeria">
-                <div class="foto">
-                    <img src="images/quince.jpg" alt="quince">
-                </div>
-                <div class="pie">
-                    <h2>Fiesta de XV</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestias minus iusto inventore quisquam quasi, sequi, odit, esse voluptatem eius commodi! Commodi, porro doloribus atque facilis voluptates excepturi enim rerum!</p>
-                </div>
+
+          </div>
+
+          <div class="carousel-item">
+
+            <img src="..." class="d-block w-100" alt="...">
+
+            <div class="carousel-caption d-none d-md-block">
+
+              <h5>Second slide label</h5>
+
+              <p>Some representative placeholder content for the second slide.</p>
+
             </div>
-            <div class="galeria">
-                <div class="foto">
-                    <img src="images/formal.jpg" alt="casamiento">
-                </div>
-                <div class="pie">
-                    <h2>Fiestas Formales</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo molestias minus iusto inventore quisquam quasi, sequi, odit, esse voluptatem eius commodi! Commodi, porro doloribus atque facilis voluptates excepturi enim rerum!</p>
-                </div>
+
+          </div>
+
+          <div class="carousel-item">
+
+            <img src="..." class="d-block w-100" alt="...">
+
+            <div class="carousel-caption d-none d-md-block">
+
+              <h5>Third slide label</h5>
+
+              <p>Some representative placeholder content for the third slide.</p>
+
             </div>
-        </article>
-    </section>
-    
-    <footer class="footer">
-        <div class="grupo1">
-            <div class="box">
-                <figure>
-                    <a href="#"><img src="images/logo2.png" alt="logo"></a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, esse.</P>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, impedit.</p>
-            </div>
-            <div class="box">
-                <h2>SIGUENOS</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                </div>
-            </div>
+
+          </div>
 
         </div>
 
-        <div class="grupo-2">
-            <small>&copy; 2023 <b>Quinta Luz Del Sol</b> - Todos Los Derechos Reservados</small>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="visually-hidden">Previous</span>
+
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+          <span class="visually-hidden">Next</span>
+
+        </button>
+
+      </div>
+
+</section>
+
+   
+
+<!-- FOOTER -->
+
+  <footer class="footer">
+
+        <div class="container-fluid">
+
+            <div class="row p-5 pb-2 bg-black text-white">
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h3">Luz De Sol</p>
+                    <p class="text-secondary">Pilas , Buenos Aires</p>
+
+                </div>
+
+                    
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5">Redes Sociales</p>
+                    <div class="mb-3">
+
+                         <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+
+                </div>
+
+                   
+                    <div class="mb-3">
+
+                        <a class="text-secondary text-decoration-none" href="#">Twitter</a>
+
+                    </div>
+
+                    
+                    <div class="mb-3">
+
+                        <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+                        
+                    </div>
+
+                    
+
+
+                </div>
+
+                    
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5">Links</p>
+                    <div class="mb-3">
+
+                        <a class="text-secondary text-decoration-none" href="#">Terminos Y Condiciones</a>
+                        
+                    </div>
+
+                    <div class="mb-3">
+
+                        <a class="text-secondary text-decoration-none" href="#">Politica De Privacidad</a>
+                        
+                    </div>
+
+
+                </div>
+
+                    
+                <div class="col-xs-12 col-md-6 col-lg-3">
+
+                    <p class="h5">Contacto</p>
+                    <div class="mb-3">
+
+                        <a class="text-secondary text-decoration-none" href="#">Tel +54 11-3565-7242</a>
+                        
+                    </div>
+                    <div class="mb-3">
+
+                        <a class="text-secondary text-decoration-none" href="#">luzdelsol@gmail.com</a>
+                        
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12">
+                        <p class="text-white text-center">Copyright - Todos los derechos reservados &copy </p>
+                </div>
+            </div>
         </div>
 
     </footer>
-
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
