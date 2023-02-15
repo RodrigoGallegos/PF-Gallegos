@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    clear: both;
+
+    .logo{
+    height: 180px;
+    width: auto;
+    }
+
+    .menu {
+    background-color: black;
+    font-size: 30px;
+    margin: 0 auto;
+    }
+
+    .menu a{
+    text-decoration: none;
+    color: goldenrod;
+    }
+
+}
+
+
+
+
+
+
+.logo img {
+    transition: all 0.3s;
+    padding: 8px;
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}

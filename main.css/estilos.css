@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Metal Mania", cursive;
+  font-family: "Michroma", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: goldenrod;
+  position: relative;
+  padding-bottom: 20em;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  clear: both;
+}
+header .logo {
+  height: 180px;
+  width: auto;
+}
+header .menu {
+  background-color: black;
+  font-size: 30px;
+  margin: 0 auto;
+}
+header .menu a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.logo img {
+  transition: all 0.3s;
+  padding: 8px;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.titulo-maps {
+  text-align: center;
+}
+.titulo-maps .map {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+
+.ibody {
+  background-color: goldenrod;
+  width: 500px;
+  margin: 10em auto;
+  padding: 30px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 16em;
+}
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+}
+
+#galeria img:hover {
+  border: 5px solid black;
+}
