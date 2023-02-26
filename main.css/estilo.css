@@ -35,12 +35,20 @@ header .menu a {
 }
 
 .logo img {
-  transition: all 0.3s;
+  transition: all 0.5s;
   padding: 8px;
 }
 
 .logo img:hover {
+  transform: scale(1.5);
+}
+
+ul li a:hover {
   transform: scale(1.1);
+}
+
+ul li {
+  transition: all 0.5s;
 }
 
 .titulo-maps {
@@ -72,3 +80,4 @@ header .menu a {
 #galeria img:hover {
   border: 5px solid black;
 }
+
