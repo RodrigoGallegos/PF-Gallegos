@@ -81,3 +81,12 @@ ul li {
   border: 5px solid black;
 }
 
+.domo_1, .domos_2 {
+  transition: all 1s;
+  border-radius: 10px;
+}
+.domo_1:hover, .domos_2:hover {
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  text-decoration: underline;
+}

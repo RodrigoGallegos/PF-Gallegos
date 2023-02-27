@@ -1,0 +1,15 @@
+.domo_1 {
+    transition: all 1s;
+    border-radius: 10px;
+
+
+    &:hover{
+            transform: scale(1.1);
+            background-color: whitesmoke;
+            text-decoration: underline;
+    }
+}
+
+.domos_2{
+    @extend .domo_1
+}
